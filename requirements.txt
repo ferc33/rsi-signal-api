@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+yfinance
+ta
+python-telegram-bot
+
