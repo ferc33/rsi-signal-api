@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from utils import fetch_gold_data
 from indicators import calculate_macd, calculate_rsi
 from telegram_utils import send_telegram_message
-
+from scheduled_tasks import start_scheduler
 app = FastAPI()
 
 @app.get("/")
@@ -30,5 +30,6 @@ async def get_trading_signal():
 
 if __name__ == "__main__":
     import uvicorn
+    start_scheduler() 
     uvicorn.run(app, host="0.0.0.0", port=8000)
-
+     

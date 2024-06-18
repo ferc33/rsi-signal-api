@@ -65,8 +65,3 @@ Las contribuciones son bienvenidas. Por favor, sigue los pasos indicados a conti
 4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
 5. Abre un Pull Request.
 
-## 📧 Contacto
-
-Para cualquier pregunta o sugerencia, por favor contacta al mantenedor del proyecto:
-
-- **Fernando Carrillo** - [ferc33@gmail.com](mailto:ferc33@gmail.com)
